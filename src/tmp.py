@@ -70,6 +70,14 @@ if picked_option == '1':
 elif picked_option == '2':
     print("Please say the TruckersmpID of the player.")
     tmp_ID = input("")
+    try: 
+        getplayerinfo = f"https://api.truckersmp.com/v2/player/{tmp_ID}"
+        r = requests.get(getplayerinfo)
+        data = r.json()["response"]
+        print("-------------------------------------------------------------")
+        print(f"The Player info for {tmp_ID} will follow soon.")
+        print(f"------------------------------------------------------------")
+        
     # make request to the api here
 elif picked_option == '3':
     print("Please say the TruckersmpID of the player.")
@@ -81,3 +89,4 @@ elif picked_option == '4':
 
 else: 
     print("Sorry that is not an option.")          
+   
