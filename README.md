@@ -2,3 +2,7 @@
 Basic program for tmp api data
 
 # NOT FOR USE ATM STILL BEING MADE
+
+```
+Requires The Module: requests
+```
