@@ -1,7 +1,7 @@
 # truckersmp-python
 Basic program for tmp api data
 
-# NOT FOR USE ATM STILL BEING MADE
+# Dead a bit like my life
 
 ```
 Requires The Module: requests
